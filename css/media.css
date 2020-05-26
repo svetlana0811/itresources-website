@@ -1,0 +1,410 @@
+@media (max-width: 1600px){
+	.memberPicBorder {
+		margin: 10px;
+	}
+	.portfolItem {
+        max-width: 320px;
+    	height: 320px
+	}
+	
+	.thirdPart {
+	    position: absolute;
+	    bottom: -160px;
+	    right: -160px;
+	}
+	.thirdPart .relative {
+	    width: 400px;
+	    height: 400px;
+	}
+	.thirdPart .absolute {
+	    width: 200px;
+	    height: 200px;
+	}
+	.absolute p {
+	    font-size: 40px;
+	}
+	.absolute p sup {
+	    font-size: 20px;
+	}
+}
+
+@media (max-width: 1366px) {
+	.contactForm {
+	    width: 54%;
+		right: 23%;
+	}
+	.mapBackground {
+	    height: 300px;
+	}
+	.bigOval {
+		height: 560px;
+    	width: 560px;
+	}
+	.memberPicBorder {
+		width: 200px;
+    	height: 200px;
+	    margin: 20px;
+	}
+	.memberPic {
+	    width: 180px;
+    	height: 180px;	
+	}
+	.noteAboutMember {
+	    width: 200px;
+        left: -100px;
+	}
+	.portfolItem {
+        max-width: 270px;
+    	height: 270px
+	}
+	.portfolItem>div img {
+	    margin: 30px auto;
+	}
+	.portfolItem>div .portfolLink {
+		width: 90%;
+	    font-size: 14px;
+	}
+	.productInfo > div {
+		font-size: 13px;
+	}
+	.productImage {
+	    height: 500px;
+	}
+	.navMenu {
+	    width: 60%;
+	}
+	.aboutContent {
+	    width: 70%;
+	}
+	.whoWeAre h1 {
+	    max-width: 650px;
+	    font-size: 50px;
+	}
+	.whoWeAre p {
+	    font-size: 18px;
+	}
+
+
+
+	/*******************/
+	.categories {
+	    font-size: 12px;
+	}
+}
+@media (max-width: 1100px) {
+	.myContainer {
+		width: 80%;
+	}
+	.contactForm {
+	    width: 72%;
+		right: 14%;
+	}
+	.memberPicBorder {
+	    width: 180px;
+	    height: 180px;
+	    margin: 20px;
+	}
+	.memberPic {
+	    width: 160px;
+	    height: 160px;
+	}
+	.noteAboutMember {
+		font-size: 12px;
+	}
+	.bigOval {
+	    height: 400px;
+	    width: 400px;
+	}
+	.smallOval {
+	    height: 250px;
+    	width: 250px;
+	}
+	.emptyAbsolute {
+	    bottom: -40%;
+	}
+	.pictureWebSizes {
+		bottom: -160px;
+	}
+	.productImage.productImageWeb {
+	    height: 400px;
+   		margin-bottom: 200px;
+	}
+	.navMenu {
+	    width: 65%;
+	}
+	.thirdPart {
+		display: none;
+	}
+	.lineToServiceInfo {
+		display: none;
+	}
+	.serviceInfo {
+	    width: 60%;
+	}
+	.shadow {
+	    width: 56px;
+	    height: 56px;
+	}
+	.shadow >div {
+	    width: 40px;
+	    height: 40px;
+        font-size: 20px;
+	}
+	.orderAndStartButtons>div p {
+		line-height: 56px;
+	}
+	/*****************************/
+	.allTypesOfOrder form>div {
+	    width: 60%;
+	}
+	.allTypesOfOrder form {
+		justify-content: center;
+	}
+
+}
+@media (max-width: 900px) {
+	.memberPicBorder {
+		margin: 10px;
+	}
+	.portfolItem {
+	    width: 50%;
+	    max-width: 300px;
+    	height: 300px;
+	}
+	.portfolItem>div img {
+	    margin: 50px auto 0;
+	}
+	.filterItems button {
+	    margin: 10px;
+	}
+	.secondLine >div, .firstLine>div {
+	    width: 100%;
+	    min-height: 300px;
+	}
+	.productInfo > div.secondLine {
+		flex-direction: column-reverse;
+	}
+	.productImage.productImageWeb {
+	    height: 300px;
+	    margin-bottom: 180px;
+	}
+	.pictureWebSizes {
+	    bottom: -140px;
+	}
+	.navMenu ul li {
+		font-size: 14px;
+	}
+	.menuNavbar .logo {
+	    width: 20%;
+	}
+	.serviceTitle {
+	    font-size: 26px;
+	}
+	.serviceDescription {
+	    font-size: 13px;
+	}
+	.orderAndStartButtons>div {
+		font-size: 13px;
+	}
+	.servicePicture , .serviceInfo {
+	    width: 100%;
+	}
+	.serviceTitle {
+	    font-size: 25px;
+	    text-align: center;
+	}
+	.orderAndStartButtons {
+	    justify-content: center;
+	}
+	.orderAndStartButtons>div {
+		margin: 0 20px;
+	}
+	.ourServicesSlider .owl-carousel .owl-nav.disabled {
+		display: none;
+	}
+
+	.ourServicesSlider .owl-dots {
+		display: block;
+	}
+	.owlCarouselSingl .item {
+	    padding-bottom: 40px;
+	}
+	.ourServicesSlider {
+	    padding-bottom: 20px;
+	}
+	.logoInFooter img {
+	    max-width: 150px;
+	}
+	.circleIconsFooter {
+	    width: 20px;
+    	height: 20px;
+    	font-size: 11px;
+	}
+	.addresFooter p:last-child, .emailFooter p:last-child {
+	    line-height: 1;
+	}
+	.circleIconsFooter.phone {
+	    margin-top: 20px;
+	}
+
+	/****************/
+	.allTypesOfOrder form>div {
+	    width: 80%;
+	}
+}
+@media (max-width: 768px) {
+	.contactForm {
+	    width: 90%;
+		right: 5%;
+	}
+	.infoPart {
+	    font-size: 13px;
+	}
+	.roundIcons > div{
+		width: 20px;
+    	height: 20px;
+    	font-size: 10px;
+	}
+	.infoPart>div>div:nth-child(2) {
+	    line-height: 40px;
+	}
+	.memberPicBorder{
+		width: 190px;
+    	height: 190px;
+    	margin: 10px 0;
+	}	
+	.memberPic {
+	    width: 170px;
+	    height: 170px;
+	}
+	.memberItem {
+		justify-content: space-around;
+	}
+	.italicText {
+		width: 100%;
+		font-size:13px;
+	}
+	.mapBackground {
+	    height: 200px;
+	}
+	.partWidthDiv {
+	    width: 100%;
+	}
+	.emptyAbsolute {
+		display: none;
+	}
+	.portfolItem {
+	    max-width: 220px;
+	    height: 220px;
+	}
+	.pictureWebSizes {
+	    bottom: -100px;
+	}
+	.pointsAbsolute {
+		display: none;
+	}
+	.menuMobile {
+	    display: block;
+	    background: #242426;
+	}
+	.menuNavbar {
+		display: none;
+	}
+	.whoWeAre h1 {
+	    max-width: 600px;
+	    font-size: 35px;
+	}
+	.emptyLine{
+	    width: 150px !important;
+	}
+	.headerPartBigDiv {
+		height: 700px;
+	}
+	.whoWeAre p {
+	    font-size: 14px;
+	}
+	.aboutContent {
+	    width: 80%;
+	}
+	.mouseScroll {
+		display: none;
+	}
+	.aboutContent a {
+		padding: 10px 30px;
+	}
+	.orderAndStartButtons {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.orderAndStartButtons>div {
+	    margin: 10px;
+	}
+	.owlCarouselSingl .item {
+	    padding-bottom: 0;
+	}
+	.serviceDescription {
+	    font-size: 12px;
+	}
+	.footerContent .myContainer {
+		flex-direction: column-reverse;
+		
+	}
+	.footerContent .myContainer>div {
+		order: 2;
+	}
+	/**************************/
+	.allTypesOfOrder form>div {
+	    width: 90%;
+	}
+}
+
+@media (max-width: 500px){
+	.infoPart , .contactFormInputs {
+	    width: 80%;
+	}
+	.contactForm {
+        height: auto;
+	}
+	.contactFormInputs form input , .contactFormInputs form textarea , .contactFormInputs form>div {
+		    width: 90%;
+	}
+	.memberPicBorder {
+	    width: 220px;
+	    height: 220px;
+	    margin: 10px 0;
+	}
+	.memberPic {
+	    width: 200px;
+	    height: 200px;
+	}
+	.portfolItem {
+	    width: 100%;
+	    max-width: 250px;
+	    height: 250px;
+	}
+	.productImage.productImageWeb {
+	    margin-bottom: 100px;
+	}
+	.pictureWebSizes {
+	    bottom: -70px;
+        width: 90%;
+    	right: 5%;
+	}
+	.mobileLogoIcon .logo {
+		width: 40%;
+	}
+	.whoWeAre h1 {
+	    max-width: 400px;
+	    font-size: 25px;
+	}
+	.aboutContent p {
+		font-size: 12px;
+	}
+	.myContainer {
+	    width: 90%;
+	}
+	/*******************/
+	.allTypesOfOrder form>div {
+	    width: 100%;
+	}
+}
